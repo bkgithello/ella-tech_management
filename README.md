@@ -3,7 +3,7 @@ NestJS service with PostgreSQL and TypeORM that manages users and products, and 
 
 ## Setup & Run
 ## Clone the repository
-    [git clone https://github.com/bkgithello/ella-tech_management.git]
+    (git clone https://github.com/bkgithello/ella-tech_management.git)
     cd ella-tech_management
 
 ## Start services with Docker Compose
