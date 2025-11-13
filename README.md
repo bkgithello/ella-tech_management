@@ -1,6 +1,22 @@
 # ella-tech_management
 NestJS service with PostgreSQL and TypeORM that manages users and products, and records a transaction history. 
-REST API endpoints:
+
+## Setup & Run
+## Clone the repository
+    [git clone https://github.com/bkgithello/ella-tech_management.git]
+    cd ella-tech_management
+
+## Start services with Docker Compose
+    docker compose up -d --build
+
+## Check containers are running
+    docker compose ps
+
+## Run migrations (if needed)
+    docker compose exec api npm run migration:run
+
+
+# REST API endpoints:
 
 POST /users → Create a new user
 http://localhost:3000/users
@@ -38,4 +54,6 @@ GET /transactions → List all stock adjustment transactions
 
 DELETE /products:productId → Delete
 http://localhost:3000/products/6
+
+
 
